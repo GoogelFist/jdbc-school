@@ -1,0 +1,4 @@
+CREATE DATABASE school_test;
+CREATE USER test_admin WITH PASSWORD '1234';
+
+GRANT ALL ON DATABASE school_test TO test_admin WITH GRANT OPTION;
